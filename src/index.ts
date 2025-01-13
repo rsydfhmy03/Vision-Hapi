@@ -2,6 +2,10 @@ const Hapi = require('@hapi/hapi');const Vision = require('@hapi/vision');
 const Handlebars = require('handlebars');
 const path = require('path');
  
+/**
+ * Initialize Hapi.js server with Vision and Handlebars plugin
+ * @returns {Promise<void>}
+ */
 const init = async () => {
  const server = Hapi.Server({
    host: 'localhost',
