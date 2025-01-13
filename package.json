@@ -1,0 +1,11 @@
+{
+  "name": "vision-hapi",
+  "version": "1.0.0",
+  "description": "this is how to use external plugin hapi framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mitahudev03",
+  "license": "ISC"
+}
